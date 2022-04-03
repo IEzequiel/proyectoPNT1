@@ -1,0 +1,157 @@
+/* style.css */
+
+
+/* Definimos estilos generales como cuerpo, fondo, titulos, etc.. */
+body{
+
+    background-image: url("https://img.freepik.com/foto-gratis/viejo-grunge-oscuro-fondo-madera-textura_7182-1872.jpg?w=1380");
+    
+    background-size: cover;
+
+    color: #080808;
+  
+    font-size: 25px;
+  
+    font-family:fantasy;
+  
+  }
+
+    
+  a {
+  
+    color: rgb(2, 2, 2);
+    font-family: fantasy;
+    font-size: 25px;
+  }
+  
+  a:hover {
+  
+    text-decoration: none;
+  
+    color: rgb(164, 33, 33);
+  
+  }
+
+  /* Aqui definimos el estilo para el banner */
+
+  #banner{
+
+    text-align: center;
+  
+    background-image: url("https://www.haier-europe.com/adapt-image/552960/burger%20gourmet%201600_900?w=1600&h=900&q=60&fm=webp&version=1.0&t=1632750284842");  
+    
+    background-position: center;
+        
+    background-size: cover;
+    
+    padding: 125px;   
+  
+  }
+  
+  #banner h1 {
+  
+    color: rgb(234, 89, 89);
+  
+    font-size: 75px;
+
+    text-shadow: 2px 2px 5px black;
+    
+    font-family: fantasy;
+  }
+  
+  #banner p {
+  
+    color: rgb(234, 89, 89);
+  
+    opacity: 1;
+  
+    font-size: 30px;
+
+    text-shadow: 1px 1px 4px black;
+  
+    font-weight: bold;
+
+    text-align: center;
+  
+  }
+  
+  /* Aqui definimos el estilo para el pie de pagina */
+
+  #footer{
+  
+    padding: 25px;
+  
+    background: rgb(30, 30, 30);
+  
+    color: rgb(155, 39, 39);
+    
+    text-align: left;
+  }
+
+  #footer a {
+
+    color: rgb(155, 39, 39);
+    font-family:'Arial Narrow Bold';
+    font-size: 20px;
+  
+  }
+  
+  #footer a:hover {
+  
+    color: rgb(91, 70, 211);
+  
+  }
+
+/* Aqui definimos el estilo para las secciones */
+
+.columnaSeccion {
+  float: left;
+  width: 23%;
+  padding: 0 13px;
+  text-align: left;
+}
+
+.filaSecciones {
+  margin: 0 -5px; 
+  text-align: center;
+  font-size: 35px;
+  }
+
+.filaSecciones:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .columnaSeccion {
+    width: 50%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Aqui definimos el estilo para el menu detallado */
+
+* {
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+  color: rgb(218, 135, 67);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+  background-color: #9b2226;
+}
