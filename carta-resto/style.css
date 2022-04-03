@@ -8,7 +8,7 @@ body{
     
     background-size: cover;
 
-    color: #080808;
+    color: #f3f3f3;
   
     font-size: 25px;
   
@@ -19,7 +19,7 @@ body{
     
   a {
   
-    color: rgb(2, 2, 2);
+    color: rgb(241, 241, 241);
     font-family: fantasy;
     font-size: 25px;
   }
@@ -105,16 +105,17 @@ body{
 /* Aqui definimos el estilo para las secciones */
 
 .columnaSeccion {
-  float: left;
+  float:left;
   width: 23%;
   padding: 0 13px;
-  text-align: left;
+  text-align:center;
 }
 
 .filaSecciones {
   margin: 0 -5px; 
   text-align: center;
   font-size: 35px;
+  
   }
 
 .filaSecciones:after {
@@ -148,7 +149,7 @@ table {
 th, td {
   text-align: center;
   padding: 16px;
-  color: rgb(218, 135, 67);
+  color: rgb(245, 240, 235);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
