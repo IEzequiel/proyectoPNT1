@@ -180,3 +180,11 @@ th {
 tr:nth-child(odd) {
   background-color: #9b2226;
 }
+
+aside {
+  width: 20%;
+  color: rgb(219, 185, 62);
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+}
