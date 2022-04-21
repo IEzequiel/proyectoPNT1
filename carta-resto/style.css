@@ -188,3 +188,14 @@ aside {
   margin-left: 15px;
   float: right;
 }
+
+nav {
+  position: ;
+  margin: 5px;
+  padding: 15px;
+  background-color: #9b2226;
+}
+
+.fontsize{
+  font-size: x-large;
+}
