@@ -1,34 +1,24 @@
 /* style.css */
 
-
 /* Definimos estilos generales como cuerpo, fondo, titulos, etc.. */
 body{
     margin:0;
     background-image: url("https://img.freepik.com/foto-gratis/viejo-grunge-oscuro-fondo-madera-textura_7182-1872.jpg?w=1380");
-    
     background-size: cover;
-
     color: #f3f3f3;
-  
     font-size: 25px;
-  
     font-family:fantasy;
-  
   }
 
   a {
-  
     color: rgb(219, 185, 62);
     font-family: fantasy;
-    font-size: 32px;
+    font-size: 28px;
   }
   
   a:hover {
-  
     text-decoration: none;
-  
     color: rgb(164, 33, 33);
-  
   }
   
   /* definimos el boton de vuelta al inicio */
@@ -41,78 +31,65 @@ body{
 
   #banner{
     text-align: center;
-  
     background-image: url("https://www.haier-europe.com/adapt-image/552960/burger%20gourmet%201600_900?w=1600&h=900&q=60&fm=webp&version=1.0&t=1632750284842");  
-    
-    background-position: center;
-        
+    background-position: center;   
     background-size: cover;
-    
-    padding: 100px 100px;   
-  
+    padding: 80px 80px;   
   }
   
   #banner h1 {
-  
     color: rgb(234, 89, 89);
-  
-    font-size: 75px;
-
+    font-size: 65px;
     text-shadow: 2px 2px 5px black;
-    
     font-family: fantasy;
   }
   
   #banner p {
-  
     color: rgb(234, 89, 89);
-  
     opacity: 1;
-  
     font-size: 30px;
-
     text-shadow: 1px 1px 4px black;
-  
     font-weight: bold;
-
     text-align: center;
-  
   }
   
   /* Aqui definimos el estilo para el pie de pagina */
 
   #footer{
-  
     padding: 25px;
-  
     background: rgb(30, 30, 30);
-  
-    color: rgb(155, 39, 39);
-    
+    color: rgb(155, 39, 39);    
     text-align: left;
   }
 
   #footer a {
-
     color: rgb(155, 39, 39);
     font-family:'Arial Narrow Bold';
     font-size: 20px;
-  
   }
   
   #footer a:hover {
-  
     color: rgb(91, 70, 211);
-  
   }
 
 /* Aqui definimos el estilo para las secciones */
+
+nav {
+  margin-bottom: 6px;
+  padding: 5px;
+  background-color: rgb(30, 30, 30);
+}
 
 .columnaSeccion {
   float:left;
   width: 23%;
   padding: 0 15px;
   text-align:center;
+}
+
+.columnaSeccion img{
+  width: 80px;
+  height: 80px;
 }
 
 .filaSecciones {
@@ -179,19 +156,16 @@ tr:nth-child(odd) {
   background-color: #9b2226;
 }
 
-aside {
-  width: 20%;
-  color: rgb(219, 185, 62);
-  padding-left: 15px;
-  margin-left: 15px;
-  float: right;
-}
+    /* Diseño del formulario */
 
-nav {
-  margin-bottom: 6px;
-  padding: 5px;
-  background-color: #9b2226;
-}
+  aside {
+    width: 20%;
+    color: rgb(219, 185, 62);
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+  }
+  
 .sticky {
   position: fixed;
   top: 0;
@@ -201,7 +175,7 @@ nav {
   padding-top: 30px;
 }
 .sticky + .content {
-  padding-top: 386px;
+  padding-top: 240px;
 }
 
 .fontsize{
@@ -215,6 +189,7 @@ nav {
   height:77px;
 }
 #boton{
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
+  font-size: large;
 }
