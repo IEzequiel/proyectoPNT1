@@ -1,5 +1,5 @@
 //https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
-
+//https://stackoverflow.com/questions/52532543/uncaught-typeerror-cannot-read-property-offsettop-of-null
 
 document.addEventListener('DOMContentLoaded', function() {
     // When the user scrolls the page, execute myFunction
