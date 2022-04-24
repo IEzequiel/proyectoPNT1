@@ -3,6 +3,7 @@
   <head>
       <!-- Usamos bootstrap solamente para los iconos de face y tw del pie de pagina, el resto es css -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <script src="javascript.js"></script>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset="utf-8">
       <title>Burguer's Chef</title>
@@ -20,7 +21,7 @@
     </div>
 
     <!-- Secciones del menu -->
-<nav> 
+<nav id="navbar"> 
   <div class="filaSecciones">
     <!-- <p><i>Secciones</i></p> -->
     <p></p>
@@ -33,21 +34,21 @@
 
       <div class="columnaSeccion">
         <div class="Guarnición">
-          <img src="images/iFritas.jpg" alt="Guarnición" width="150">
+          <img  src="images/iFritas.jpg" alt="Guarnición" width="150">
           <p><a href="#guarnicion">Guarnición</a></p>
         </div>
       </div>
 
     <div class="columnaSeccion">
       <div class="Bebidas">
-        <img src="images/iBebida.jpg" alt="Bebias" width="150">
+        <img  src="images/iBebida.jpg" alt="Bebias" width="150">
         <p><a href="#bebidas">Bebidas</a></p>
       </div>
     </div>  
 
     <div class="columnaSeccion">
       <div class="Combos">
-        <img src="images/iCombo.jpg" alt="Combos" width="150">
+        <img   src="images/iCombo.jpg" alt="Combos" width="150">
         <p><a href="#combos">Combos</a></p>
       </div>
     </div>
@@ -56,7 +57,7 @@
   
   <!-- Formulario de pedido -->
 
-  <div class="formulario">
+  <div class="formulario" >
   <aside>
     <p><u><h3>Hace tu pedido aqui</h3></u></p>
     <form method="post">
@@ -73,10 +74,12 @@
       <p>Pedido</p>
       <textarea id="areaPedido" rows="5" cols="30" required></textarea>
       <p></p>
-      <input type="submit" value="Confirmar" onclick="alert('Pedido realizado')">
+      <div id="botonE">
+      <input id="boton" type="submit" value="Confirmar" onclick="alert('Pedido realizado')">
+      </div>
     </form>
   </aside>
-</div>
+</div id="tablaCombos">
   <!-- Menu detallado para Combos  -->
       <table class="center">
         <tr>
