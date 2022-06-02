@@ -1,0 +1,62 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>17</zoom_level><element><id>UMLClass</id><coordinates><x>1734</x><y>544</y><w>289</w><h>289</h></coordinates><panel_attributes>Comprador
+--
+- id: int
+- nombre: String
+- apellido: String
+- email: String
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1122</x><y>272</y><w>357</w><h>170</h></coordinates><panel_attributes>Complejo
+--
+- id: int
+- nombre: String
+- direccion: String
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>680</x><y>935</y><w>272</w><h>170</h></coordinates><panel_attributes>Pelicula
+--
+- id: int
+- nombre: String
+- duracion: double
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>833</x><y>306</y><w>323</w><h>119</h></coordinates><panel_attributes>lt=&lt;-
+- salas
+m1=*</panel_attributes><additional_attributes>10;50;10;20;170;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>748</x><y>612</y><w>238</w><h>153</h></coordinates><panel_attributes>Funcion
+--
+-id: int
+-fecha: DateTime
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>901</x><y>510</y><w>153</w><h>136</h></coordinates><panel_attributes>lt=&lt;-
+- funciones
+m1=*</panel_attributes><additional_attributes>10;60;10;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>1173</x><y>952</y><w>272</w><h>170</h></coordinates><panel_attributes>Asiento
+--
+- id : int
+- fila : int
+- numero: int
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>1173</x><y>544</y><w>306</w><h>272</h></coordinates><panel_attributes>Entrada
+--
+- id: int
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>748</x><y>391</y><w>238</w><h>136</h></coordinates><panel_attributes>Sala
+--
+- id: numero
+- capacidad: int
+--</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>867</x><y>748</y><w>136</w><h>221</h></coordinates><panel_attributes>lt=&lt;-
+m1= 1
+- pelicula</panel_attributes><additional_attributes>10;110;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>799</x><y>510</y><w>102</w><h>136</h></coordinates><panel_attributes>lt=&lt;-
+m1= 1
+- sala</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>748</x><y>748</y><w>153</w><h>221</h></coordinates><panel_attributes>lt=&lt;-
+m1= 0..n
+- funciones</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>1394</x><y>799</y><w>136</w><h>187</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- asiento</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>969</x><y>629</y><w>238</w><h>85</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- funcion</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element><element><id>Relation</id><coordinates><x>969</x><y>374</y><w>187</w><h>85</h></coordinates><panel_attributes>lt=&lt;-
+-complejo
+m1=1</panel_attributes><additional_attributes>90;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1292</x><y>799</y><w>136</w><h>187</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- entrada</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>Relation</id><coordinates><x>969</x><y>680</y><w>238</w><h>85</h></coordinates><panel_attributes>lt=&lt;-
+m1=*
+- entradas</panel_attributes><additional_attributes>120;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1462</x><y>629</y><w>306</w><h>85</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- entrada</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>1462</x><y>680</y><w>306</w><h>85</h></coordinates><panel_attributes>lt=&lt;-
+m1=1
+- comprador</panel_attributes><additional_attributes>160;20;10;20</additional_attributes></element></diagram>
