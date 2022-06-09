@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {}
+    "C:\\Users\\matia\\Documents\\ProyectoPNT\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {}
   },
   "projects": {
-    "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {
+    "C:\\Users\\matia\\Documents\\ProyectoPNT\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+        "projectUniqueName": "C:\\Users\\matia\\Documents\\ProyectoPNT\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
         "projectName": "WebCineMVC",
-        "projectPath": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
-        "packagesPath": "C:\\Users\\Seba\\.nuget\\packages\\",
-        "outputPath": "D:\\ORT_PNT1\\proyectoPNT1\\CinePNT1\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\matia\\Documents\\ProyectoPNT\\proyectoPNT1\\CinePNT1\\WebApplication1\\WebCineMVC.csproj",
+        "packagesPath": "C:\\Users\\matia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matia\\Documents\\ProyectoPNT\\proyectoPNT1\\CinePNT1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Seba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
