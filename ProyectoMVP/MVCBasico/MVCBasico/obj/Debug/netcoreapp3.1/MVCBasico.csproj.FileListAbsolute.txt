@@ -154,3 +154,13 @@ C:\Users\matia\Desktop\EF_CF_Junio2022\MVCBasico\MVCBasico\obj\Debug\netcoreapp3
 C:\Users\matia\Desktop\EF_CF_Junio2022\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\Razor\Views\Estudiante\Details.cshtml.g.cs
 C:\Users\matia\Desktop\EF_CF_Junio2022\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\Razor\Views\Estudiante\Edit.cshtml.g.cs
 C:\Users\matia\Desktop\EF_CF_Junio2022\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\Razor\Views\Estudiante\Index.cshtml.g.cs
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.csproj.AssemblyReference.cache
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.AssemblyInfoInputs.cache
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.AssemblyInfo.cs
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.csproj.CoreCompileInputs.cache
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.RazorAssemblyInfo.cache
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.RazorAssemblyInfo.cs
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.dll
+C:\Users\matia\Documents\ProyectoPNT\proyectoPNT1\ProyectoMVP\MVCBasico\MVCBasico\obj\Debug\netcoreapp3.1\MVCBasico.pdb

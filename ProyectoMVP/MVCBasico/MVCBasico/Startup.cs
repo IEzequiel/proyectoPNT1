@@ -39,8 +39,8 @@ namespace MVCBasico
                 options.CheckConsentNeeded = context => true;
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
-            services.AddDbContext<EscuelaDatabaseContext>(options =>
-                    options.UseSqlServer(Configuration["ConnectionString:EscuelaDBConnection"]));
+            services.AddDbContext<CineContext>(options =>
+                    options.UseSqlServer(Configuration["ConnectionString:CineDBConnection"]));
             services.AddMvc().AddNewtonsoftJson(options =>
                     options.SerializerSettings.ReferenceLoopHandling =
            ReferenceLoopHandling.Ignore)
